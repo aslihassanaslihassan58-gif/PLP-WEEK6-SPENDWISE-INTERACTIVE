@@ -1,0 +1,30 @@
+body{
+ background:#f0f2f5;
+ font-family:Arial;
+ padding:20px;
+}
+.box{
+ background:white;
+ max-width:500px;
+ margin:auto;
+ padding:20px;
+ border-radius:10px;
+}
+input,select,button{
+ padding:8px;
+ margin:5px;
+}
+button{
+ background:#4f46e5;
+ color:white;
+ border:none;
+ border-radius:5px;
+}
+#list li{
+ background:#f9f9f9;
+ padding:8px;
+ margin-top:5px;
+ list-style:none;
+ display:flex;
+ justify-content:space-between;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>spendwise interactive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>spendwise</h1>
+<p>total: KES <span id="total">o</span></p>
+<p>count:  <span id="count">o</span></p>
+<p id="status"></p>
+
+<form id="form">
+<input type="text" id="name" placeholder="expense name" required>
+<input type="number" id="amount" placeholder="amount" required>
+<select id ="category">
+<option>food</option>
+<option>transport</option>
+<option>shopping</option>
+<option>Bills</option>
+</select>
+<button type="submit">add expense</button>
+</form>
+
+<ul id="list"></ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+     
+
+
